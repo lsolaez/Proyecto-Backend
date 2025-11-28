@@ -56,8 +56,9 @@ const iniciarServidor = async () => {
     process.exit(1);
   }
 };
-
-iniciarServidor();
+if (require.main === module)  {
+  iniciarServidor();
+}
 
 module.exports = app;
 

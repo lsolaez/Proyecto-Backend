@@ -4,7 +4,7 @@ const { Usuario } = require('../models');
 const sequelize = require('../config/database');
 
 describe('Usuario Controller', () => {
-  beforeAll(async () => {
+  beforeEach(async () => {
     await sequelize.sync({ force: true });
   });
 

@@ -1,5 +1,8 @@
+require('dotenv').config();
+
 module.exports = {
   testEnvironment: 'node',
+  setupFiles: ['dotenv/config'],
   coveragePathIgnorePatterns: [
     '/node_modules/',
     '/tests/',
