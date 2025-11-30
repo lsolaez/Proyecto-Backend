@@ -191,7 +191,7 @@ Proyecto-Backend/
 │   │   ├── libroController.test.js
 │   │   └── reservaController.test.js
 │   └── app.js                # Archivo principal
-├── .env.example
+├── .env
 ├── .gitignore
 ├── jest.config.js
 ├── package.json
